@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome Page</title>
+	<meta charset="utf-8">
+	   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<button class="accordion">BOOTSRAP</button>
+<div class="panel">
+  <p>Bootstrap, originally named Twitter Blueprint, was developed by Mark Otto and Jacob Thornton at Twitter as a framework to encourage consistency across internal tools. Before Bootstrap, various libraries were used for interface development, which led to inconsistencies and a high maintenance burden. According to Twitter developer Mark Otto:
+
+"A super small group of developers and I got together to design and build a new internal tool and saw an opportunity to do something more. Through that process, we saw ourselves build something much more substantial than another internal tool. Months later, we ended up with an early version of Bootstrap as a way to document and share common design patterns and assets within the company.</p>
+</div>
+
+<button class="accordion">JAVA SCRIPT</button>
+<div class="panel">
+  <p>JavaScript was created by Brendan Eich in 1995 during his time at Netscape Communications. It was inspired by Java, Scheme and Self.
+
+Netscape Navigator market share (source)
+Netscape, for a time, made the best browser in the world and enjoyed market dominance.
+In late 1995, when Microsoft cottoned-on to the competitive threat the Web posed, the Internet Explorer project was started in an all-out attempt to wrestle control of the emerging platform from Netscape.
+In so doing Microsoft became a mortal threat, compelling Netscape to respond. First, they started a standardization process to prevent Microsoft gaining control of the JavaScript language. Second, they partnered with Sun to leverage their shared interest in breaking the Microsoft monopoly.
+Sun began development of Java in 1990 in an attempt to write a language for “smart appliances”. This approach floundered and in 1994, Sun regrouped and set sights on the Web as the delivery platform of choice.</p>
+</div>
+
+<button class="accordion">JQUERY</button>
+<div class="panel">
+  <p>
+jQuery was first released in January 2006 by John Resig at BarCamp NYC. It is currently headed by Timmy Wilson and maintained by a team of developers.
+
+Nowadays, jQuery is widely used technology. Most of the websites are using jQuery.</p>
+</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="img.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Abdul Kalam</h1> 
+      <p>Born: 15 October 1931, Rameswaram
+Died: 27 July 2015, Shillong</p> 
+      <p>Full name: Avul Pakir Jainulabdeen Abdul Kalam
+Awards: Bharat Ratna, Padma Bhushan, Padma Vibhushan,</p>
+    </div>
+  </div>
+</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="img1.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Sundar Pichai</h1> 
+      <p>Pichai Sundararajan, also known as Sundar Pichai, is an Indian-American business executive. He is an engineer and the chief executive officer of Google LLC.</p> 
+    </div>
+  </div>
+</div>
+			</div>
+			<div class="col-lg-4 col-md-12 col-sm-12">
+				<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="img3.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Mark Elliot Zuckerberg</h1> 
+      <p>Mark Elliot Zuckerberg is an American technology entrepreneur and philanthropist. Zuckerberg is known for co-founding and leading Facebook as its chairman ...</p> 
+    </div>
+  </div>
+</div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>
